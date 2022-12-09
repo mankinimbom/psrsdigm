@@ -2,7 +2,7 @@ node('built-in')
 {
     stage('ContinuuousDownload') 
     {
-       git 'https://github.com/mankinimbom/maven.git'
+       git 'https://github.com/mankinimbom/psrsdigm.git'
     }
     stage('ContinuuousBuild')
     {
